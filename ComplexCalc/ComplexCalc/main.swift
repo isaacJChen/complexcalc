@@ -14,6 +14,9 @@ let calc = Calculator()  // Don't change this declaration name; it's used in all
 
 // ====> Add your own tests here if you wish <====
 
+assert(calc.add([]) == 0)
+assert(calc.multiply([]) == 1)
+assert(calc.avg([]) == 0)
 
 // ====> Do not modify code in this section <====
 assert(calc.add(lhs: 2, rhs: 2) == 4)
